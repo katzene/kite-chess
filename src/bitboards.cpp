@@ -64,7 +64,7 @@ std::vector<Square> get_squares(const U64 bb) {
 
     while (!is_empty(bbCopy)) {
         Square sq = pop_lsb(bbCopy);
-        result.push_back(sq);
+        result.emplace_back(sq);
     }
     return result;
 }

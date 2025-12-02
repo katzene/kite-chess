@@ -24,6 +24,4 @@ struct PositionKey {
     std::array<int, 8> en_pas_file = {};
 };
 
-}
-
 }  // namespace Kite::Zobrist

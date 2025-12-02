@@ -10,9 +10,9 @@ Kite is a work in progress UCI chess engine which analyzes and outputs the best 
 
 ## Build Instructions
 
-Kite requires a C++17 compatible compiler and CMake 3.31. Run these commands to build:
+Kite requires a C++20 compatible compiler and CMake 3.31. Run these commands to build:
 
 ```
 cmake -S . -B build
-cmake --build build
+cmake --build build --config Release
 ```
